@@ -38,9 +38,8 @@
   }
 
   .popular-item-card-last, .shares-cell-last {
-      position: relative;
-      left: 195px;
-
+    position: relative;
+    left: 195px;
   }
 }
 
@@ -57,14 +56,15 @@
     display: inline;
     margin-left: 16px;
   }
+
   .nav-search {
     height: 100px;
   }
 
   .brand-div {
-      margin-left: 5px;
-      padding: 0;
-      width: 107px;
+    margin-left: 5px;
+    padding: 0;
+    width: 107px;
   }
 
   .brand-logo {
@@ -132,20 +132,16 @@
   }
 
   .popular-item-card-last {
-      left: 0px;
-
+    left: 0px;
   }
 
-  .footer-bottom-right {
+  .footer-bottom-right a img, .footer-bottom-right p {
+    float: none;
   }
-
-.footer-bottom-right a img, .footer-bottom-right p {
-  float: none;
-}
 
   .brand-logo-white-div, .footer-bottom-left, .footer-bottom-right {
     text-align: center;
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   .footer-top-cell {
@@ -154,5 +150,105 @@
 }
 
 @media (max-width: 650px) {
+  .wrapper, .nav-menu {
+    width: 100%;
+  }
 
+  .header {
+    margin-bottom: 0;
+  }
+
+  .nav-info {
+    height: 60px;
+    text-align: center;
+  }
+
+  .nav-info div div {
+    float: none;
+  }
+
+  .nav-info a, .nav-info-phones h4 {
+    padding: 8px 20px;
+    margin: 0;
+  }
+
+  .nav-search {
+    height: auto;
+  }
+
+  .brand-div {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .brand-logo {
+    margin: 10px 0;
+    width: 100px;
+  }
+
+  .search-div {
+    width: 200px;
+    margin: 10px auto 0 auto;
+  }
+
+  .shopping-cart {
+    margin: 40px auto 10px auto;
+  }
+
+  .nav-menu {
+    text-align: center;
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  #subgrid-left, #subgrid-right {
+    max-width: 100%;
+    margin: 0 0 10px 0;
+  }
+
+  #catalog {
+    border-radius: 0;
+    position: relative;
+    top: 0;
+    margin-bottom: 0;
+  }
+
+  #catalog ul li ul {
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  #catalog ul li a {
+    line-height: 10px;
+  }
+
+  #testimonials {
+    width: 100%;
+    height: auto;
+  }
+
+  .popular-item-card {
+    margin: 5px auto;
+  }
+
+  .card, .shares-cell {
+    margin: 5px auto;
+    left: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav-info a, .nav-info-phones h4 {
+    padding: 8px 15px;
+    font-size: 10px;
+  }
+
+  .nav-menu {
+    padding: 0;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
 }
