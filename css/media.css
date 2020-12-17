@@ -1,0 +1,153 @@
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 900px;
+  }
+
+  .search-div {
+    margin: 20px 50px 0 75px;
+    width: 450px;
+  }
+
+  .nav-menu {
+    width: 900px;
+  }
+
+  .nav-item {
+    margin-right: 3%;
+  }
+
+  #subgrid-left {
+    max-width: 200px;
+  }
+
+  #subgrid-right {
+    max-width: 650px;
+  }
+
+  #testimonials {
+    height: 359.2px;
+  }
+
+  .card, .shares-cell {
+    text-align: center;
+  }
+
+  .second {
+    position: relative;
+    left: 106px;
+  }
+
+  .popular-item-card-last, .shares-cell-last {
+      position: relative;
+      left: 195px;
+
+  }
+}
+
+@media (max-width: 920px) {
+  .wrapper {
+    max-width: 650px;
+  }
+
+  .nav-info a {
+    margin-right: 32px;
+  }
+
+  .nav-info-phones h4 {
+    display: inline;
+    margin-left: 16px;
+  }
+  .nav-search {
+    height: 100px;
+  }
+
+  .brand-div {
+      margin-left: 5px;
+      padding: 0;
+      width: 107px;
+  }
+
+  .brand-logo {
+    width: 107px;
+    height: 81px;
+  }
+
+  .search-div {
+    margin: 20px 25px 0 50px;
+    width: 300px;
+  }
+
+  .search-div p {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 2px;
+  }
+
+  .shopping-cart {
+    max-height: 50px;
+    max-width: 100px;
+    padding: 0.5% 1%;
+    margin: 35px 0 15px 0;
+  }
+
+  .nav-menu {
+    margin-left: 2px;
+    padding-left: 0;
+    width: 637.2px;
+  }
+
+  .nav-item {
+    margin-right: 0.5%;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  #subgrid-left {
+    max-width: 200px;
+  }
+
+  #catalog {
+    position: sticky;
+    top: 5px;
+  }
+
+  #subgrid-right {
+    max-width: 400px;
+  }
+
+  #testimonials {
+    height: 235.2px;
+  }
+
+  #popular-items h2 {
+    text-align: center;
+  }
+
+  .card, .shares-cell {
+    position: relative;
+    left: 71px;
+  }
+
+  .popular-item-card-last {
+      left: 0px;
+
+  }
+
+  .footer-bottom-right {
+  }
+
+.footer-bottom-right a img, .footer-bottom-right p {
+  float: none;
+}
+
+  .brand-logo-white-div, .footer-bottom-left, .footer-bottom-right {
+    text-align: center;
+      margin-bottom: 0;
+  }
+
+  .footer-top-cell {
+    margin-top: 10px;
+  }
+}

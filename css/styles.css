@@ -1,0 +1,548 @@
+/*   TAG STYLES   */
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: rgba(229, 229, 229, 0.1);
+  color: #404040;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #404040;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+button:focus, input:focus {
+  outline: none;
+}
+
+hr {
+  opacity: 1;
+}
+
+/*   CUSTOM CLASSES   */
+.main-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 21px;
+}
+
+.add-text-1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.add-text-2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.row {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1115px;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.blue-round {
+  background-color: #BED1E1;
+  border-radius: 3px;
+  border: none;
+}
+
+.date {
+  padding: 4px 12px;
+  width: 64px;
+  margin-bottom: 9px;
+}
+
+/*   HEADER   */
+.header {
+  margin-bottom: 30px;
+}
+
+/*   NAV INFO   */
+.nav-info {
+  background-color: #EBEDEE;
+  padding-top: 8px;
+  height: 40px;
+}
+
+.nav-info a {
+  margin-right: 52px;
+}
+
+.nav-info-phones h4 {
+  display: inline;
+  margin-left: 36px;
+}
+
+/*   NAV SEARCH   */
+.nav-search {
+  height: 121px;
+}
+
+.search-div {
+  margin: 20px 125px 0 150px;
+  width: 520px;
+}
+
+input[placeholder="Найти товар ..."] {
+  border: 1px solid #E1CEBE;
+  border-right: none;
+  color: #E1CEBE;
+}
+
+input[placeholder="Найти товар ..."]:focus {
+  border: 1px solid #E1CEBE;
+  border-right: none;
+  box-shadow: none;
+}
+
+input[placeholder="Найти товар ..."]::-webkit-input-placeholder {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #E1CEBE;
+}
+
+input[placeholder="Найти товар ..."]::-moz-placeholder {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #E1CEBE;
+}
+
+#button-addon2 {
+  background-color: #fff;
+  border: 1px solid #E1CEBE;
+  border-left: none;
+}
+
+#button-addon2:focus {
+  box-shadow: none;
+}
+
+#button-addon2 .fas {
+  color: #E1CEBE;
+}
+
+.brand-logo {
+  margin-top: 8px;
+  margin-left: 40px;
+  width: 127px;
+  height: 101px;
+}
+
+.shopping-cart {
+  background-color: #EBEDEE;
+  max-height: 78px;
+  max-width: 134px;
+  border-radius: 3px;
+  padding: 1% 2%;
+  margin: 30px 0;
+}
+
+.shopping-cart h5 {
+  display: inline;
+  padding: 3% 15%;
+  background-color: #BED1E1;
+}
+
+/*   NAV MENU   */
+.navbar {
+  background-color: #E1CEBE;
+}
+
+.nav-menu {
+  width: 1115px;
+  margin: auto;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 6%;
+}
+
+.nav-item:hover {
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/*   MAIN PART   */
+#subgrid-left {
+  max-width: 260px;
+  padding: 0;
+}
+
+#subgrid-right {
+  max-width: 830px;
+  padding: 0;
+  margin-left: 25px;
+}
+
+/*   CATALOG   */
+#catalog {
+  background-color: #BED1E1;
+  border-radius:
+    width: 100%;
+  height: auto;
+  border-radius: 3px;
+  margin-bottom: 28px;
+}
+
+#catalog h2 {
+  padding: 10px 15px;
+}
+
+#catalog ul {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: relative;
+}
+
+#catalog ul li {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#catalog ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+#catalog>ul>li:hover>a {
+  color: #fff;
+}
+
+#catalog ul li ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+  width: auto;
+}
+
+#catalog ul li:hover ul {
+  display: block;
+  border-radius: 3px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+#catalog ul li ul li a {
+  white-space: nowrap;
+  padding: 5px 20px;
+  background-color: #fff;
+  z-index: 1000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#catalog ul li ul li a:hover {
+  color: #566E98;
+}
+
+/*   NEWS   */
+#news {
+  background-color: #EBEDEE;
+  border-radius: 3px;
+  padding: 22px 14px 36px 28px;
+}
+
+/*   CAROUSEL   */
+#testimonials {
+  height: 450px;
+  max-width: 830px;
+  background-image: url(../images/Carousel-background.png);
+  text-align: center;
+  color: #fff;
+  margin-bottom: 31px;
+}
+
+.carousel-item {
+  padding: 22%;
+}
+
+.carousel-item-text {
+  padding: 5%;
+  background-color: rgba(40, 40, 40, 0.3);
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+  color: rgba(86, 110, 152, 1);
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(225, 206, 190, 0.6);
+}
+
+.carousel-control-prev i:hover, .carousel-control-next i:hover {
+  color: #fff;
+}
+
+.carousel-indicators li {
+  background-color: rgba(86, 110, 152, 1);
+  border-color: rgba(86, 110, 152, 1);
+  border-radius: 6px;
+  border-top: none;
+  height: 0px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/*   POPULAR ITEMS   */
+#popular-items {}
+
+.popular-item-card {
+  width: 260px;
+  padding: 0;
+  margin-bottom: 22px;
+  margin-right: 24px;
+}
+
+.popular-item-card-last {
+  margin-right: 0;
+}
+
+.card-header img {
+  height: 260px;
+}
+
+.hr-card {
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.card {
+  background-color: #EBEDEE;
+  border: none;
+  width: 260px;
+  height: 495px;
+}
+
+.card-header {
+  border: none;
+  width: 260px;
+  padding: 0;
+}
+
+.basket-add {
+  position: absolute;
+  bottom: 0;
+  width: 230px;
+  height: 40px;
+  margin-bottom: 29px;
+}
+
+.btn-add {
+  width: 119px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.btn-add:hover {
+  background-color: #E1CEBE;
+}
+
+.control-position-quantity {
+  width: 95px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.control-position-quantity button {
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  color: rgba(86, 110, 152, 1);
+  font-size: 25px;
+}
+
+.position-quantity {
+  border: none;
+  max-width: 40px;
+  text-align: center;
+}
+
+/*   SHARES   */
+#shares {}
+
+.shares-intro {
+  margin-bottom: 15px;
+}
+
+.shares-intro h2, .shares-intro h5 {
+  display: inline;
+}
+
+.shares-intro a {
+  margin-top: 4px;
+}
+
+.shares-img {
+  width: 260px;
+  height: 200px;
+}
+
+.shares-cell {
+  width: 260px;
+  padding: 0;
+  margin-right: 24px;
+}
+
+.shares-cell-last {
+  margin-right: 0;
+}
+
+.a-shares {
+  color: rgba(86, 110, 152, 1);
+}
+
+.a-shares:hover {
+  color: rgba(225, 206, 190, 1);
+}
+
+.date-shares {
+  position: relative;
+  bottom: 13px;
+  left: 10px;
+  margin-bottom: -4px;
+}
+
+/*   ABOUT COMPAMY   */
+#about-company p {
+  text-align: justify;
+}
+
+/*   FOOTER   */
+#footer {
+  background-color: #BED1E1;
+  margin-top: 57px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.footer-top-cell {
+  margin-top: 44px;
+}
+
+.footer-top-cell-center {
+  text-align: center;
+}
+
+.brand-logo-white {
+  margin-top: 17px;
+}
+
+#footer .fas {
+  color: #EBEDEE;
+  width: 24px;
+  margin-top: 4px;
+}
+
+.hr-footer {
+  max-width: 1115px;
+  margin: 15px auto;
+  border: none;
+  color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 1px;
+}
+
+.footer-bottom-left {
+  margin-bottom: 30px;
+}
+
+.footer-bottom-right {
+  margin-bottom: 35px;
+}
+
+.footer-bottom-right p {
+  color: #fff;
+}
+
+.footer-bottom-right a img {
+  margin: 0 0 0 12px;
+}
+
+/*   TOGGLE CLASSES   */
+.highlight {
+  width: 264px;
+  border: 2px solid #E1CEBE;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
